@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179" height="178" viewBox="0 0 179 178">
+  <defs>
+    <filter id="Ellipse_164" x="0" y="0" width="179" height="178" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_11_1" data-name="Component 11 – 1" transform="translate(60 30)">
+    <g transform="matrix(1, 0, 0, 1, -60, -30)" filter="url(#Ellipse_164)">
+      <ellipse id="Ellipse_164-2" data-name="Ellipse 164" cx="29.5" cy="29" rx="29.5" ry="29" transform="translate(60 30)" fill="#72b63c"/>
+    </g>
+    <path id="Icon_awesome-arrow-alt-circle-right" data-name="Icon awesome-arrow-alt-circle-right" d="M10.6,0A10.6,10.6,0,1,1,0,10.6,10.6,10.6,0,0,1,10.6,0ZM5.642,12.481H10.6v3.03a.513.513,0,0,0,.876.363l4.885-4.911a.508.508,0,0,0,0-.722L11.476,5.326a.513.513,0,0,0-.876.363v3.03H5.642a.514.514,0,0,0-.513.513v2.735A.514.514,0,0,0,5.642,12.481Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 14.9, 26.864)" fill="#a9df7e" opacity="0.7"/>
+  </g>
+</svg>

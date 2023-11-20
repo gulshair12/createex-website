@@ -1,0 +1,26 @@
+
+svg {
+  width: 80%;
+}
+
+.teamcard {
+  position: relative;
+  width: 250px; /* Set the width you want */
+  height: 200px; /* Set the height you want */
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4; /* Make sure the SVG is above other content */
+}
+
+.text-content {
+  left: 5px;
+  top: 200px;
+  position: relative;
+  z-index: 2; /* Place the text content above the SVG */
+  padding: 20px;
+}

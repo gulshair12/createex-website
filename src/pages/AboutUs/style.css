@@ -1,0 +1,211 @@
+.BgImage::before {
+  content: '';
+  background-image: url('../../SVG/AboutUsSideImage.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  z-index: 0;
+}
+.BgImage {
+  position: relative;
+}
+
+@media screen and (min-width: 1380px) {
+  .sideImage {
+    width: 100%;
+    height: 100%;
+  }
+  .LMAboutUs {
+    margin-top: 100px !important;
+    width: 30% !important;
+  }
+}
+.backDot {
+  background-image: url('../../SVG//PNG/Counterbg.png');
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.CountSpan {
+  font-size: 15px;
+  font-weight: 400;
+}
+.h3Count {
+  font-size: 50px;
+  color: #72b63c;
+  font-weight: '500';
+}
+.h5countTitle {
+  font-weight: 400;
+  color: #444444;
+}
+.CountCol {
+  text-align: center;
+  margin-top: 10px;
+  color: #72b63c;
+}
+@media screen and (min-width: 1380px) {
+  .pCount {
+    font-size: '0.1vw !important';
+  }
+  .Ourh4 {
+    fontsize: '1vw';
+  }
+  .CountSpan {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .h3Count {
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .h5countTitle {
+    font-weight: 350;
+    font-size: 30px;
+    color: #444444;
+  }
+}
+.WorkProcessBg {
+  background-image: url('');
+}
+.teambackground {
+  /* margin-top: 150px; */
+  position: relative;
+}
+.teambackground::before {
+  content: '';
+  background-image: url('../../SVG/PNG/teambg.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1200px; /* Adjust this value as needed */
+  right: 1600px; /* Position the background image to the left */
+  width: 20vw; /* Ensure the background covers the entire width */
+  height: 19vw; /* Ensure the background covers the entire height */
+}
+.subh6 {
+  color: #72b63c;
+  text-align: center;
+}
+/* Adjust the carousel height and center it */
+/* .carousel.carousel-slider {
+  height: 450px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.custom-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.custom-prev {
+  left: 0;
+  margin-left: 50px;
+  margin-top: -250px !important;
+}
+
+.custom-next {
+  margin-right: 50px;
+  margin-top: -250px !important;
+  right: 0;
+}
+
+.carousel .control-dots {
+  margin-top: 150px !important;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.carousel .control-dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #c6cddb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.carousel .control-dots .dot.selected {
+  background: #72b63c;
+}
+@media screen and (min-width: 1380px) {
+  .custom-prev {
+    margin-left: 230px !important;
+  }
+
+  .custom-next {
+    margin-right: 310px !important;
+  }
+} */
+.custom-carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-content {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.custom-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.custom-prev {
+  left: 0;
+  margin-left: 0px; /* Adjust the margin to position the arrow correctly */
+}
+
+.custom-next {
+  right: 0;
+  margin-right: 0px; /* Adjust the margin to position the arrow correctly */
+}
+
+/* Example styles for custom indicators */
+.carousel .control-dots {
+  margin-top: 150px !important;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.carousel .control-dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #c6cddb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.carousel .control-dots .dot.selected {
+  background: #72b63c;
+}

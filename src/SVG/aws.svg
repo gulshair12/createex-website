@@ -1,0 +1,13 @@
+<svg id="Component_17_1" data-name="Component 17 – 1" xmlns="http://www.w3.org/2000/svg" width="90.54" height="99.006" viewBox="0 0 90.54 99.006">
+  <g id="hexagon">
+    <g id="Group_3288" data-name="Group 3288" transform="translate(0 0)">
+      <g id="Component_16_1" data-name="Component 16 – 1" transform="translate(0 0)">
+        <path id="Path_7037" data-name="Path 7037" d="M55.437,12.56A18.189,18.189,0,0,1,64.794,10a22.652,22.652,0,0,1,12.757,3.861L101.763,28s8.938,5.707,8.938,14.561V74.244a19.333,19.333,0,0,1-9.358,17.121c-10.239,6.294-27.192,15.4-27.192,15.4s-8.183,6.462-22.072-2.56L30.385,91.827s-10.2-5.035-10.2-17.121V43.024s-.713-9.442,11.036-16.281Z" transform="translate(-20.18 -10)" fill="#72b63c"/>
+      </g>
+    </g>
+  </g>
+  <g id="amazon-shopping-svgrepo-com" transform="translate(20.274 23.473)">
+    <rect id="Rectangle_3488" data-name="Rectangle 3488" width="50" height="50" rx="16" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_23665" data-name="Path 23665" d="M62.357,30V44.435l7.6-6.078,7.6,6.078V30M54,57.35a31.53,31.53,0,0,0,15.954,4.558A31.53,31.53,0,0,0,85.908,57.35m0,0L79.45,54.691m6.458,2.659-2.659,7.217" transform="translate(-44.883 -30)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

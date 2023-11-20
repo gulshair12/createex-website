@@ -1,0 +1,26 @@
+.backbg-tab {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+}
+.bgactiveTab-btn {
+  width: 60%;
+  height: 30px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #72b63c;
+  padding: 0px;
+  border-radius: 22px;
+  border: transparent;
+  background-color: transparent;
+}
+.bgTab-btn {
+  width: 70%;
+  font-size: 11px;
+  color: #747e93;
+  border-radius: 22px;
+  border: transparent;
+  background-color: transparent;
+}

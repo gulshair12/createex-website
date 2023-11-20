@@ -1,0 +1,62 @@
+.bg-image {
+  background-image: url("../../../SVG/PNG/bg-3.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  object-fit: contain;
+}
+
+.input {
+  background-color: #707c7f;
+  color: #000;
+  border: transparent;
+  font-family: "Poppins";
+  font-size: 0.8em;
+  border-radius: 22px;
+  width: 80%;
+  padding: 10px 20px 10px 20px;
+  min-height: 8%;
+  &::placeholder {
+    color: #fff;
+    text-align: left;
+  }
+}
+.input:active {
+  background-color: none;
+  border: transparent;
+}
+.Messageinput {
+  background-color: #707c7f;
+  color: #000;
+  border: transparent;
+  border-radius: 22px;
+  width: 80%;
+  font-family: "Poppins";
+  font-size: 12px;
+  height: 30%;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  &::placeholder {
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    white-space: nowrap;
+  }
+}
+.Contactus {
+  opacity: 0.7;
+  text-align: center;
+  border: 1px solid #72b63c;
+}
+.send-btn {
+  background-color: #72b63c;
+  color: #fff;
+  width: 40%;
+  height: 40px;
+  font-size: 21px;
+  border: none;
+  margin-top: 30px;
+  border-radius: 22px;
+}

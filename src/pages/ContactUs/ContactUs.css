@@ -1,0 +1,81 @@
+.Contactusbg {
+  background-image: url('../../SVG/PNG/Aboutbg.png');
+  max-width: 100em; 
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 200px;
+}
+.Contactusinput {
+  background-color: #707c7f;
+  color: #000;
+  border: transparent;
+  font-family: 'Poppins';
+  font-size: 12px;
+  border-radius: 22px;
+  width: 80%;
+  padding: 10px 20px 10px 20px;
+  height: 8%;
+  &::placeholder {
+    color: #fff;
+    text-align: left;
+  }
+}
+.Contactusinput:active {
+  background-color: none;
+  border: transparent;
+}
+.ContactusMessageinput {
+  background-color: #707c7f;
+  color: #000;
+  border: transparent;
+  border-radius: 22px;
+  width: 80%;
+  font-family: 'Poppins';
+  font-size: 12px;
+  height: 30%;
+
+  padding: 10px 20px 10px 20px;
+  position: relative;
+
+  &::placeholder {
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    white-space: nowrap;
+  }
+}
+.mainContactus {
+  backdrop-filter: blur(15px);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.281);
+  opacity: 0.7;
+  text-align: center;
+  height: 470px;
+  width: 470px;
+  border: 1px solid #72b63c;
+}
+.Contactussend-btn {
+  background-color: #72b63c;
+  color: #fff;
+  width: 40%;
+  height: 40px;
+  font-size: 21px;
+  border: none;
+  margin-top: 30px;
+  border-radius: 22px;
+  justify-content: center;
+}
+@media screen and (min-width: 1380px) {
+  .mainContactus {
+    margin-right: 190px;
+    border-radius: 15px;
+    height: 640px;
+    width: 650px;
+  }
+  .Contactusinput {
+    margin-top: 50px;
+    margin: 15px;
+  }
+}

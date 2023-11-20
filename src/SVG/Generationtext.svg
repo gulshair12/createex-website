@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="317" height="70" viewBox="0 0 317 70">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a0df6d"/>
+      <stop offset="1" stop-color="#7db4d5"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_2660" data-name="Group 2660" transform="translate(-334.484 -884.345)">
+    <g id="Rectangle_214" data-name="Rectangle 214" transform="translate(336.484 887.345)" stroke="#afccde" stroke-width="1" fill="url(#radial-gradient)">
+      <rect width="311" height="65" stroke="none"/>
+      <rect x="0.5" y="0.5" width="310" height="64" fill="none"/>
+    </g>
+    <rect id="Rectangle_215" data-name="Rectangle 215" width="7" height="7" transform="translate(334.484 884.345)" fill="#afccde"/>
+    <rect id="Rectangle_217" data-name="Rectangle 217" width="7" height="7" transform="translate(644.484 884.345)" fill="#afccde"/>
+    <rect id="Rectangle_218" data-name="Rectangle 218" width="7" height="7" transform="translate(644.484 947.345)" fill="#afccde"/>
+    <rect id="Rectangle_216" data-name="Rectangle 216" width="7" height="7" transform="translate(334.484 947.345)" fill="#afccde"/>
+  </g>
+</svg>

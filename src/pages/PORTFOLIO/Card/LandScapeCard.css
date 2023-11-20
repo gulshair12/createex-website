@@ -1,0 +1,35 @@
+.LandScapecard {
+  position: relative;
+  width: 320px;
+  height: 200px;
+  display: flex;
+  background: transparent;
+  border: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.LandScapecard .LandScapebox:nth-child(1) img {
+  width: 320px;
+  height: 200px;
+  display: flex;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.LandScapecard .LandScapecircle {
+  position: absolute;
+  top: 65%;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 100%;
+  border: 10px solid #fff;
+  overflow: hidden;
+}
+.LandScapecard .LandScapecircle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

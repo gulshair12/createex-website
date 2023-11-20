@@ -1,0 +1,29 @@
+.webmainDiv {
+  background-image: url('../../SVG//Subpages//Web/Group\ 6076.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+}
+.AfterGetbtn {
+  background-image: url('../../SVG/Subpages/afterGetbtn.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+}
+.txtcolorcolor {
+  color: #fff;
+}
+.belowMainheading {
+  font-size: 2vw;
+  color: #444444;
+}
+.belowservicesheading {
+  color: #72b63c;
+  font-size: 1.5vw;
+}
+.belowservicesimg {
+  color: #747e93;
+  font-size: 1vw;
+}

@@ -1,0 +1,17 @@
+.bgImage {
+  width: 100%;
+  background-image: url("../../../SVG/PNG/servicesbg.jpg");
+  object-fit: cover;
+}
+
+.span1 {
+  background: linear-gradient(
+    135deg,
+    #686868 0%,
+    rgba(172, 255, 104, 0.051) 0%,
+    transparent 100%
+  ) !important;
+  border-radius: 30px !important;
+  border: 1px solid#83917D !important;
+  width: 355px;
+}
