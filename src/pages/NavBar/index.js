@@ -4,6 +4,7 @@ import { Cross as Hamburger } from 'hamburger-react';
 import { ReactComponent as Brand } from '../../SVG/logo.svg';
 import './style.css';
 import arrows from '../../SVG/Subpages/AboutUs/final/twoarrow.svg';
+import bgimg from "../../SVG/invertbgnav.svg"
 
 const Index = ({ pageTitle, PageName }) => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -27,6 +28,7 @@ const Index = ({ pageTitle, PageName }) => {
           <Hamburger direction='left' size={32} color='green' duration={0.1} />
         </div>
         <div className={`nav-elements ${showNavbar && 'active'}`}>
+          <img className='bgNavImg' src={bgimg} alt="arrowimage" />
           <ul>
             <li>
               <NavLink

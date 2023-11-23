@@ -1,26 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
   margin: 0;
-  padding: 0 2em;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(
-    to top,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255)
-  );
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainnavbar {
+  background: linear-gradient(to right, rgb(225, 244, 248), #ffffff);
+}
+
+.logo {
+  padding-left: 3rem;
 }
 
 .navContainer {
-  min-width: 100%;
-  /* margin: 0 auto; */
-  padding: 0 45px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 100%;
 }
 
+.nav-elements {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: "Poppins";
+  padding-right: 8rem;
+}
+
+.nav-elements ul li a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #444444;
+  text-decoration: none;
+}
+
+.btn-submit {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/*
 .mainnavbar {
   height: 60px;
   background-color: transparent;
@@ -54,29 +72,23 @@ body {
   color: #72b63c;
 }
 
-.nav-elements ul a {
-  font-size: 10px;
-  font-weight: 400;
-  color: #444444;
-  text-decoration: none;
-}
 
 NavLink.active {
   color: #72b63c;
 }
 
 /*------------------------- Button Design ------------------------- */
-.btn-submit {
-  background-color: rgba(114, 182, 60, 0.78);
+/* .btn-submit { */
+/* background-color: rgba(114, 182, 60, 0.78);
   color: #fff;
   border-radius: 17px;
   border: transparent;
   font-size: 12px;
   padding: 5px 15px 5px 15px;
-}
+} */
 /*------------------------- Responsive Design ------------------------- */
 
-@media (min-width: 1380px) {
+/* @media (min-width: 1380px) {
   .nav-elements {
     margin-top: 30px !important;
   }
@@ -129,4 +141,4 @@ NavLink.active {
   .logo {
     margin-left: 0% !important;
   }
-}
+} */

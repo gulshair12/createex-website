@@ -7,11 +7,11 @@ export const Index = () => {
   return (
     <>
       {' '}
-      <NavBar pageTitle='Web' />
+      <NavBar pageTitle='Web Development' />
       <Webdevelopment
         Logo={Web}
-        Whyus='Why Choose Us'
-        mainHeading='Website Development Services?'
+        Whyus='Why Choose Our'
+        mainHeading='web Development Services?'
         para="Your website should reflect your company's essence and resonate with your audience. Our team of experts is dedicated to helping you harness the full potential of your online platform. As your business flourishes, it becomes imperative to collaborate with a web development agency to build a professional website that mirrors your growth trajectory."
         detail="Your digital presence shapes your business's success, and we're here to guide you every step of the way. Our proficient team is equipped to solve your challenges with tailored solutions. Enhance your marketing efforts, engage seamlessly with your customers, and navigate the digital landscape confidently with a meticulously designed website. We prioritize speed, search engine optimization, and functionality to fulfill your organizational needs."
         h3='Benefits of Our Web Development Services:'

@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import clogo from "../../../SVG/comp.svg"
 import "./style.css";
 export const index = () => {
   return (
     <>
-      <div className="bg-image d-flex align-items-center justify-content-center mt-4">
-        <Container>
+      <div className="bg-image d-flex align-items-center justify-content-center mt-5 pt-5">
+        <Container className="d-flex">
           <Col lg={6}>
-            <div className="Contactus py-5">
+            <div className="Contactus py-5 pl-4">
               <h1
                 style={{
                   color: "#72B63C",
@@ -35,12 +36,13 @@ export const index = () => {
                 placeholder="Message"
                 className="Messageinput"
               ></textarea>
-              {/* <Row className='justify-content-center Align-items-center'> */}
+
               <button className="send-btn  my-2">Send</button>
             </div>
-            {/* </Row> */}
           </Col>
-          {/* </div> */}
+          <Col lg={10}>
+            <img className="sideimg " src={clogo} alt="sideimg" />
+          </Col>
         </Container>
       </div>
     </>

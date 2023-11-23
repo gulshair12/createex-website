@@ -1,6 +1,6 @@
 .BgImage::before {
-  content: '';
-  background-image: url('../../SVG/AboutUsSideImage.svg');
+  content: "";
+  background-image: url("../../SVG/AboutUsSideImage.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 150px;
@@ -24,7 +24,7 @@
   }
 }
 .backDot {
-  background-image: url('../../SVG//PNG/Counterbg.png');
+  background-image: url("../../SVG//PNG/Counterbg.png");
   background-position: center;
   width: 100%;
   height: 100%;
@@ -37,7 +37,7 @@
 .h3Count {
   font-size: 50px;
   color: #72b63c;
-  font-weight: '500';
+  font-weight: "500";
 }
 .h5countTitle {
   font-weight: 400;
@@ -50,10 +50,10 @@
 }
 @media screen and (min-width: 1380px) {
   .pCount {
-    font-size: '0.1vw !important';
+    font-size: "0.1vw !important";
   }
   .Ourh4 {
-    fontsize: '1vw';
+    fontsize: "1vw";
   }
   .CountSpan {
     font-size: 20px;
@@ -70,15 +70,15 @@
   }
 }
 .WorkProcessBg {
-  background-image: url('');
+  background-image: url("");
 }
 .teambackground {
   /* margin-top: 150px; */
   position: relative;
 }
 .teambackground::before {
-  content: '';
-  background-image: url('../../SVG/PNG/teambg.png');
+  content: "";
+  background-image: url("../../SVG/PNG/teambg.png");
   background-repeat: no-repeat;
   position: absolute;
   top: 1200px; /* Adjust this value as needed */

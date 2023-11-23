@@ -22,7 +22,7 @@ export const Index = () => {
       <div className="bgImage">
         <Row
           style={{
-            marginBottom: "140px",
+            marginBottom: "60px",
           }}
         >
           <h6

@@ -43,15 +43,3 @@ button:hover .a-3 {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
-@media screen and (min-width: 1380px) {
-  .a-1 {
-    margin-left: 10px;
-  }
-  .Seebtnport {
-    margin-left: 30px;
-    font-size: 0.7vw;
-    width: 85% !important;
-    text-align: center;
-    height: 32px;
-  }
-}

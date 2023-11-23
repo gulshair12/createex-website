@@ -4,10 +4,5 @@
     rgba(175, 204, 222, 0.3),
     rgba(255, 255, 255, 0.8)
   );
-  height: 800px;
 }
-@media screen and (min-width: 1380px) {
-  .GradientBackGroundHero {
-    height: 880px !important;
-  }
-}
+

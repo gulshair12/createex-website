@@ -1,15 +1,14 @@
-.BgImage::before {
-  content: '';
-  background-image: url('../../../SVG/AboutUsSideImage.svg');
+.AboutBgImage::before {
+  content: "";
+  background-image: url("../../../SVG/AboutUsSideImage.svg");
   background-repeat: no-repeat;
   position: absolute;
-  top: 150px;
-  left: 0;
-  width: 80%;
+  left: -50px;
+  width: 70%;
   height: 80%;
-  z-index: 1;
+  z-index: -1;
 }
-.BgImage {
+.AboutBgImage {
   position: relative;
 }
 

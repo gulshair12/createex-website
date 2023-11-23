@@ -10,15 +10,16 @@ export const About = () => {
       <div
         className="AboutBgImage"
         style={{
-          marginTop: "10rem",
           paddingBottom: "150px",
+          marginTop: "25rem",
         }}
       >
         <Container>
           <Row>
             <Col
               style={{
-                marginTop: "100px",
+                marginTop: "50px",
+                marginLeft:"140px",
               }}
             >
               <Card

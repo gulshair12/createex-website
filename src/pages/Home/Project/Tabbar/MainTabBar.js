@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import CustomTab from "./TabBar.js";
-import UIuX from "./pages/uiUx.js";
-import Development from "./pages/Development.js";
-import Graphicdesign from "./pages/graphicDesign.js";
+import All from "./pages/uiUx.js";
+import AppDevelopment from "./pages/Development.js";
+import Graphic from "./pages/graphicDesign.js";
+import Appdesign from "./pages/Appdesign.js";
+import WebDesign from "./pages/WebDesign.js";
+import WebDevelpoment from "./pages/WebDevelopment.js";
 
 const MainTab = () => {
-  const [activeTab, setActiveTab] = useState("UIuX");
+  const [activeTab, setActiveTab] = useState("All");
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
@@ -15,9 +18,12 @@ const MainTab = () => {
     <div>
       <CustomTab activeTab={activeTab} onTabClick={handleTabClick} />
 
-      {activeTab === "UIuX" && <UIuX />}
-      {activeTab === "Development" && <Development />}
-      {activeTab === "Graphicdesign" && <Graphicdesign />}
+      {activeTab === "All" && <All />}
+      {activeTab === "Appdesign" && <Appdesign />}
+      {activeTab === "WebDesign" && <WebDesign />}
+      {activeTab === "Graphic" && <Graphic />}
+      {activeTab === "AppDevelopment" && <AppDevelopment />}
+      {activeTab === "WebDevelpoment" && <WebDevelpoment />}
     </div>
   );
 };

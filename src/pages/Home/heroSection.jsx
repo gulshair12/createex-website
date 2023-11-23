@@ -1,46 +1,51 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import './heroSection.css';
-import bgImg from '../../SVG/PNG/bgImage.png';
-import First from '../../SVG/First-arrow.svg';
-import Second from '../../SVG/Second-arrow.svg';
-import Third from '../../SVG/third-arrow.svg';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import "./heroSection.css";
+import bgImg from "../../SVG/PNG/bgImage.png";
+import First from "../../SVG/First-arrow.svg";
+import Second from "../../SVG/Second-arrow.svg";
+import Third from "../../SVG/third-arrow.svg";
 const Section = () => {
   return (
     <>
-      <div className='background'>
-        <Row className='d-flex align-items-center justify-content-center justify-content-lg-start res'>
+      <div
+        className="background"
+        style={{
+          height: "100vh",
+        }}
+      >
+        <Row className="d-flex align-items-center justify-content-center justify-content-lg-start res">
           <Col
-            lg={6}
-            className='Detail text-left'
+            lg={5}
+            className="Detail text-left"
             style={{
-              marginLeft: '3%',
-              marginTop: '12%',
+              marginLeft: "5rem",
+              marginTop: "12%",
             }}
           >
-            <h6 className='heroh6'>Grow your Business</h6>
-            <h3 className='heroh3 helvetica'>
-              From Idea<span className='color'> Gen</span>
-              <span className='Gen'>eration</span>
+            <h6 className="heroh6 ">Growth your Business</h6>
+            <h3 className="heroh">
+              From Idea<span className="color"> G</span>
+              <span className="Gen">eneration</span>
               <br />
               to Product Launch
             </h3>
-            <p className='text-secondary'>
+            <p className="text-secondary">
               Welcome to Software Housing, your premier destination for
               cutting-edge software development and design solutions. At
               Software Housing, we believe in the power of innovation and the
               limitless possibilities it brings to businesses of all sizes. As a
               leading software house
             </p>
-            <button className='scroll-button mb-4 shadow'>
+            <button className="scroll-button mb-4 shadow">
               Get Started
-              <img className='arrow-1' src={First} alt='Arrow 1' />
-              <img className='arrow-2' src={Second} alt='Arrow 2' />
-              <img className='arrow-3' src={Third} alt='Arrow 3' />
+              <img className="arrow-1" src={First} alt="Arrow 1" />
+              <img className="arrow-2" src={Second} alt="Arrow 2" />
+              <img className="arrow-3" src={Third} alt="Arrow 3" />
             </button>
           </Col>
-          <Col className='heroImage' style={{ maxWidth: '70%' }}>
-            <img className='heroImage' src={bgImg} alt='heroImage' />
+          <Col className="heroImage" style={{ maxWidth: "90%" }}>
+            <img className="heroImage" src={bgImg} alt="heroImage" />
           </Col>
         </Row>
       </div>

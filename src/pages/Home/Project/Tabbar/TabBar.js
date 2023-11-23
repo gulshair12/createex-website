@@ -13,9 +13,9 @@ export const TabBar = ({ activeTab, onTabClick }) => {
       >
         <button
           className={
-            activeTab === "UIuX" ? "bgactiveTab-btn shadow" : "bgTab-btn"
+            activeTab === "All" ? "bgactiveTab-btn shadow" : "bgTab-btn"
           }
-          onClick={() => onTabClick("UIuX")}
+          onClick={() => onTabClick("All")}
         >
           All
         </button>
@@ -28,9 +28,9 @@ export const TabBar = ({ activeTab, onTabClick }) => {
       >
         <button
           className={
-            activeTab === "Development" ? "bgactiveTab-btn shadow" : "bgTab-btn"
+            activeTab === "AppDesign" ? "bgactiveTab-btn shadow" : "bgTab-btn"
           }
-          onClick={() => onTabClick("Development")}
+          onClick={() => onTabClick("AppDesign")}
         >
           App Design 
         </button>
@@ -43,11 +43,11 @@ export const TabBar = ({ activeTab, onTabClick }) => {
       >
         <button
           className={
-            activeTab === "Graphicdesign"
+            activeTab === "WebDesign"
               ? "bgactiveTab-btn shadow"
               : "bgTab-btn"
           }
-          onClick={() => onTabClick("Graphicdesign")}
+          onClick={() => onTabClick("WebDesign")}
         >
           Web Design
         </button>
@@ -77,11 +77,11 @@ export const TabBar = ({ activeTab, onTabClick }) => {
       >
         <button
           className={
-            activeTab === "Graphicdesign"
+            activeTab === "AppDevelopment"
               ? "bgactiveTab-btn shadow"
               : "bgTab-btn"
           }
-          onClick={() => onTabClick("Graphicdesign")}
+          onClick={() => onTabClick("AppDevelopment")}
         >
           App Development
         </button>
@@ -94,11 +94,11 @@ export const TabBar = ({ activeTab, onTabClick }) => {
       >
         <button
           className={
-            activeTab === "Graphicdesign"
+            activeTab === "WebDevelpoment"
               ? "bgactiveTab-btn shadow"
               : "bgTab-btn"
           }
-          onClick={() => onTabClick("Graphicdesign")}
+          onClick={() => onTabClick("WebDevelpoment")}
         >
           Web Develpoment
         </button>
