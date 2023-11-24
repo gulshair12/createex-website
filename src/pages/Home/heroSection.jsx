@@ -23,7 +23,7 @@ const Section = () => {
               marginTop: "12%",
             }}
           >
-            <h6 className="heroh6 ">Growth your Business</h6>
+            <h6 className="heroh6 ">Growth of your Business</h6>
             <h3 className="heroh">
               From Idea<span className="color"> G</span>
               <span className="Gen">eneration</span>

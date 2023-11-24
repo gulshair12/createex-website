@@ -5,6 +5,8 @@ import logo from "../SVG/logo.svg";
 import facebook from "../SVG/New folder/scg/facebook.svg";
 import Twitter from "../SVG/New folder/scg/twitter.svg";
 import Instgram from "../SVG/New folder/scg/instagram.svg";
+import Logo from "../SVG/logo1.png";
+
 export const Footer = () => {
   return (
     <>
@@ -12,6 +14,7 @@ export const Footer = () => {
         <div className="footerDiv container text-center text-md-left">
           <div className="row  text-center  text-md-left">
             <div className="col-md-3 col-lg-3 colxl-3 mx-auto mt-3">
+              <img src={Logo} alt="sitelogo" />
               <img src={logo} alt="Createex" />
               <p
                 style={{

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import { Cross as Hamburger } from 'hamburger-react';
-import { ReactComponent as Brand } from '../../SVG/logo.svg';
-import './style.css';
-import arrows from '../../SVG/Subpages/AboutUs/final/twoarrow.svg';
-import bgimg from "../../SVG/invertbgnav.svg"
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { Cross as Hamburger } from "hamburger-react";
+import { ReactComponent as Brand } from "../../SVG/logo.svg";
+import Logo from "../../SVG/logo1.png";
+import "./style.css";
+import arrows from "../../SVG/Subpages/AboutUs/final/twoarrow.svg";
 
 const Index = ({ pageTitle, PageName }) => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -14,29 +14,29 @@ const Index = ({ pageTitle, PageName }) => {
     setShowNavbar(!showNavbar);
   };
 
-  const handleNavLinkClick = path => {
+  const handleNavLinkClick = (path) => {
     setActiveLink(path);
   };
 
   return (
-    <nav className='navbar'>
-      <div className='navContainer'>
-        <div className='logo'>
-          <Brand style={{ width: '80%', height: '80%' }} />
+    <nav className="navbar">
+      <div className="navContainer">
+        <div className="logo">
+          <img src={Logo} alt="logo" />
+          <Brand style={{ width: "80%", height: "80%" }} />
         </div>
-        <div className='menu-icon' onClick={handleShowNavbar}>
-          <Hamburger direction='left' size={32} color='green' duration={0.1} />
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          <Hamburger direction="left" size={32} color="green" duration={0.1} />
         </div>
-        <div className={`nav-elements ${showNavbar && 'active'}`}>
-          <img className='bgNavImg' src={bgimg} alt="arrowimage" />
+        <div className={`nav-elements ${showNavbar && "active"}`}>
           <ul>
             <li>
               <NavLink
-                to='/home'
-                activeClassName='active'
-                onClick={() => handleNavLinkClick('/home')}
+                to="/home"
+                activeClassName="active"
+                onClick={() => handleNavLinkClick("/home")}
                 style={{
-                  color: activeLink === '/home' ? '#72b63c' : '#444444',
+                  color: activeLink === "/home" ? "#72b63c" : "#444444",
                 }}
               >
                 Home
@@ -44,11 +44,11 @@ const Index = ({ pageTitle, PageName }) => {
             </li>
             <li>
               <NavLink
-                to='/services'
-                activeClassName='active'
-                onClick={() => handleNavLinkClick('/services')}
+                to="/services"
+                activeClassName="active"
+                onClick={() => handleNavLinkClick("/services")}
                 style={{
-                  color: activeLink === '/services' ? '#72b63c' : '#444444',
+                  color: activeLink === "/services" ? "#72b63c" : "#444444",
                 }}
               >
                 Our Services
@@ -56,11 +56,11 @@ const Index = ({ pageTitle, PageName }) => {
             </li>
             <li>
               <NavLink
-                to='/portfolio'
-                activeClassName='active'
-                onClick={() => handleNavLinkClick('services')}
+                to="/portfolio"
+                activeClassName="active"
+                onClick={() => handleNavLinkClick("services")}
                 style={{
-                  color: activeLink === 'services' ? '#72b63c' : '#444444',
+                  color: activeLink === "services" ? "#72b63c" : "#444444",
                 }}
               >
                 Portfolio
@@ -68,11 +68,11 @@ const Index = ({ pageTitle, PageName }) => {
             </li>
             <li>
               <NavLink
-                to='/team'
-                activeClassName='active'
-                onClick={() => handleNavLinkClick('services')}
+                to="/team"
+                activeClassName="active"
+                onClick={() => handleNavLinkClick("services")}
                 style={{
-                  color: activeLink === 'services' ? '#72b63c' : '#444444',
+                  color: activeLink === "services" ? "#72b63c" : "#444444",
                 }}
               >
                 Team
@@ -80,11 +80,11 @@ const Index = ({ pageTitle, PageName }) => {
             </li>
             <li>
               <NavLink
-                to='/Client'
-                activeClassName='active'
-                onClick={() => handleNavLinkClick('services')}
+                to="/Client"
+                activeClassName="active"
+                onClick={() => handleNavLinkClick("services")}
                 style={{
-                  color: activeLink === 'services' ? '#72b63c' : '#444444',
+                  color: activeLink === "services" ? "#72b63c" : "#444444",
                 }}
               >
                 Client
@@ -92,11 +92,11 @@ const Index = ({ pageTitle, PageName }) => {
             </li>
             <li>
               <NavLink
-                to='/About'
-                activeClassName='active'
-                onClick={() => handleNavLinkClick('services')}
+                to="/About"
+                activeClassName="active"
+                onClick={() => handleNavLinkClick("services")}
                 style={{
-                  color: activeLink === 'services' ? '#72b63c' : '#444444',
+                  color: activeLink === "services" ? "#72b63c" : "#444444",
                 }}
               >
                 About Us
@@ -104,7 +104,7 @@ const Index = ({ pageTitle, PageName }) => {
             </li>
             <li>
               <NavLink>
-                <button className='btn-submit'>Contact Us</button>
+                <button className="btn-submit">Contact Us</button>
               </NavLink>
             </li>
           </ul>
@@ -112,37 +112,37 @@ const Index = ({ pageTitle, PageName }) => {
       </div>
       <div
         style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          textAlign: 'center',
-          height: '100%',
-          width: '100%',
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          height: "100%",
+          width: "100%",
         }}
       >
         <h1
           style={{
-            paddingTop: '80px',
-            textAlign: 'center',
-            color: '#444444',
-            fontSize: '2vw',
+            paddingTop: "80px",
+            textAlign: "center",
+            color: "#444444",
+            fontSize: "2vw",
           }}
         >
           {pageTitle}
         </h1>
       </div>
       <div
-        className=' d-flex justify-content-center align-items-center'
+        className=" d-flex justify-content-center align-items-center"
         style={{
-          textAlign: 'center',
-          width: '100%',
-          height: '100%',
-          paddingBottom: '40px',
+          textAlign: "center",
+          width: "100%",
+          height: "100%",
+          paddingBottom: "40px",
         }}
       >
         <h6
           style={{
-            color: '#444444',
+            color: "#444444",
           }}
         >
           Home
@@ -150,14 +150,14 @@ const Index = ({ pageTitle, PageName }) => {
         <img
           src={arrows}
           style={{
-            marginLeft: '10px',
-            marginBottom: '5px',
-            marginRight: '10px',
+            marginLeft: "10px",
+            marginBottom: "5px",
+            marginRight: "10px",
           }}
         />
         <h6
           style={{
-            color: '#72B63C',
+            color: "#72B63C",
           }}
         >
           {PageName}

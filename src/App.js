@@ -13,6 +13,7 @@ import ECommerce from "./pages/OurServices/Ecommerce/ecommerce.js";
 import AmazonWB from "./pages/OurServices/Amazon WB/amazonWb.js";
 import UIExecution from "./pages/OurServices/UI/uiex.js";
 import UXExection from "./pages/OurServices/UX Execution/uxex.js";
+import AI from "./pages/OurServices/AI/ai.js";
 
 // import MainPage from './pages/Home/mainSection/MainPage .js';
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="/uxexection" element={<UXExection />} />
         <Route path="/appdesign" element={<AppDesign />} />
         <Route path="/webdesign" element={<WebDesign />} />
+        <Route path="/ai" element={<AI />} />
       </Routes>
     </BrowserRouter>
     // BrowserRouter end
