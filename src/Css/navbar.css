@@ -9,6 +9,17 @@ body {
 .mainnavbar {
   background: linear-gradient(to right, rgb(225, 244, 248), #ffffff);
 }
+.mainnavbar::before {
+  content: "";
+  background-image: url("../SVG/Group\ 3277.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0; /* Adjust this value as needed */
+  right: 30rem; /* Position the background image to the left */
+  width: 31vw; /* Ensure the background covers the entire width */
+  height: 36vw; /* Ensure the background covers the entire height */
+  z-index: -5;
+}
 
 .logo {
   padding-left: 3rem;
@@ -27,18 +38,19 @@ body {
 }
 
 .nav-elements ul li a {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   color: #444444;
   text-decoration: none;
 }
-
+.nav-elements ul li a.activeLink {
+  color: #72b63c;
+}
 .btn-submit {
   font-size: 13px;
   font-weight: 400;
 }
 
-/*
 .mainnavbar {
   height: 60px;
   background-color: transparent;
@@ -72,23 +84,22 @@ body {
   color: #72b63c;
 }
 
-
-NavLink.active {
+.active {
   color: #72b63c;
 }
 
 /*------------------------- Button Design ------------------------- */
-/* .btn-submit { */
-/* background-color: rgba(114, 182, 60, 0.78);
+.btn-submit {
+  background-color: rgba(114, 182, 60, 0.78);
   color: #fff;
   border-radius: 17px;
   border: transparent;
   font-size: 12px;
   padding: 5px 15px 5px 15px;
-} */
+}
 /*------------------------- Responsive Design ------------------------- */
 
-/* @media (min-width: 1380px) {
+@media (min-width: 1380px) {
   .nav-elements {
     margin-top: 30px !important;
   }
@@ -141,4 +152,4 @@ NavLink.active {
   .logo {
     margin-left: 0% !important;
   }
-} */
+}

@@ -45,7 +45,7 @@ export const Testimonial = () => {
 
   return (
     <>
-      <NavBar pageTitle="About Our Company " PageName="About us" />
+      <NavBar pageTitle="About Our Company " PageName="About us"   />
       {/* First Part */}
       <div
         className="BgImage"

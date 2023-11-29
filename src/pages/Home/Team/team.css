@@ -1,5 +1,15 @@
-/* .teambackground {
-  /* margin-top: 150px;
+.background-team {
+  margin-bottom: 6rem;
+  margin-top: 2rem;
   position: relative;
-} */
-
+}
+.background-team::before {
+  content: "";
+  background-image: url("../../../SVG/belowSubmitbtn.svg");
+  background-repeat: no-repeat;
+  position: absolute; /* Adjust this value as needed */
+  bottom: -15rem;
+  left: -71px;
+  width: 20vw;
+  height: 36vw;
+}

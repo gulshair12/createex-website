@@ -3,6 +3,7 @@ import { Container, Col } from "react-bootstrap";
 import NavBar from "../../pages/NavBar/index.js";
 import clogo from "../../SVG/comp.svg";
 import Footer from "../../Component/Footer";
+import "./ContactUs.css";
 
 export const ContactUs = () => {
   const [submissionStatus, setSubmissionStatus] = useState(null);
@@ -57,10 +58,31 @@ export const ContactUs = () => {
   return (
     <>
       <NavBar pageTitle="We'd love to hear from you" PageName="Contact Us" />
-      <div className="bg-image d-flex align-items-center justify-content-center mt-5 pt-5">
-        <Container className="d-flex">
-          <Col lg={6}>
-            <div className="Contactus py-5 pl-4">
+      <div
+        className="bg-image mb-5"
+        style={{
+          marginTop: "60px",
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      >
+        <Container
+          className="d-flex justify-content-between align-items-center"
+          style={{
+            paddingTop: "100px",
+            paddingBottom: "100px",
+          }}
+        >
+          <Col
+            xl={6}
+            lg={6}
+            md={6}
+            style={{
+              paddingLeft: "100px",
+            }}
+          >
+            <div className="Contactus py-4">
               <h1
                 style={{
                   color: "#72B63C",
@@ -70,16 +92,16 @@ export const ContactUs = () => {
                 Contact Us
               </h1>
               <p
-                className="text-white "
+                className="text-white text-center"
                 style={{
-                  fontSize: "0.6rem",
+                  fontSize: "0.8rem",
                 }}
               >
                 Our friendly custom service team always respond to enquiries
                 within 24 hours
               </p>
-              {submissionStatus && renderAlert()}
-              <form onSubmit={handleSubmit}>
+
+              <form>
                 <input
                   type="text"
                   name="name"
@@ -94,7 +116,7 @@ export const ContactUs = () => {
                 />
                 <textarea
                   name="message"
-                  rows="5"
+                  rows="10"
                   placeholder="Message"
                   className="Messageinput"
                 ></textarea>
@@ -103,9 +125,6 @@ export const ContactUs = () => {
                 </button>
               </form>
             </div>
-          </Col>
-          <Col lg={10}>
-            <img className="sideimg " src={clogo} alt="sideimg" />
           </Col>
         </Container>
       </div>

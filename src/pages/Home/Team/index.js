@@ -55,7 +55,7 @@ export const index = () => {
 
   return (
     <>
-      <div
+      <div className="background-team"
       >
         <Container
           style={{

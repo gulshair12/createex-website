@@ -1,14 +1,34 @@
-import React from "react";
+import { React, useState } from "react";
 import { Container, Col, Row } from "react-bootstrap";
-import clogo from "../../../SVG/comp.svg"
+import clogo from "../../../SVG/comp.svg";
 import "./style.css";
-export const index = () => {
+
+const index = () => {
   return (
     <>
-      <div className="bg-image d-flex align-items-center justify-content-center mt-5 pt-5">
-        <Container className="d-flex">
-          <Col lg={6}>
-            <div className="Contactus py-5 pl-4">
+      <div
+        className="bg-image mb-5"
+        style={{
+          marginTop: "60px",
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      >
+        <Container
+          className="d-flex justify-content-between align-items-center"
+          style={{
+            paddingTop: "100px",
+            paddingBottom: "100px",
+          }}
+        >
+          <Col
+            lg={6}
+            style={{
+              paddingLeft: "100px",
+            }}
+          >
+            <div className="Contactus py-4">
               <h1
                 style={{
                   color: "#72B63C",
@@ -20,28 +40,37 @@ export const index = () => {
               <p
                 className="text-white "
                 style={{
-                  fontSize: "0.6rem",
+                  fontSize: "0.8rem",
                 }}
               >
                 Our friendly custom service team always respond to enquiries
-                witchin 24 hours
+                within 24 hours
               </p>
-              <input placeholder="Name" className="input" />
-              <input placeholder="Email" className="input my-4" />
-              <textarea
-                id="w3review"
-                name="w3review"
-                rows="10"
-                cols="50"
-                placeholder="Message"
-                className="Messageinput"
-              ></textarea>
 
-              <button className="send-btn  my-2">Send</button>
+              <form>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  className="input"
+                />
+                <input
+                  type="email"
+                  name="_replyto"
+                  placeholder="Email"
+                  className="input my-4"
+                />
+                <textarea
+                  name="message"
+                  rows="10"
+                  placeholder="Message"
+                  className="Messageinput"
+                ></textarea>
+                <button type="submit" className="send-btn my-2">
+                  Send
+                </button>
+              </form>
             </div>
-          </Col>
-          <Col lg={10}>
-            <img className="sideimg " src={clogo} alt="sideimg" />
           </Col>
         </Container>
       </div>

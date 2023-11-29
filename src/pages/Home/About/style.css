@@ -64,7 +64,7 @@
 }
 
 .sideimg {
-  height: 60%;
-  margin-top: 15rem;
-  margin-left: 3.5rem;
+  max-height: 80%;
+  margin-left: 6em;
+  margin-top: 7em;
 }

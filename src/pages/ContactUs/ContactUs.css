@@ -1,10 +1,17 @@
-/* .bg-image {
-  background-image: url("../../../SVG/PNG/bg-3.png");
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: center;
-  object-fit: contain;
+.bg-image {
+  background-image: url("../../SVG/Component\ 11\ –\ 1.svg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-position: center center;
+ 
 }
+
+.Contactus {
+  flex: 1; /* Allow the form to take up remaining space */
+}
+
+/*
 
 .input {
   background-color: #707c7f;

@@ -55,7 +55,7 @@
   top: 34;
   margin-left: 4px;
   width: 14%;
-  height: 4%;
+  height: 1.35em;
   background-size: cover;
 }
 .heroh6 {
@@ -122,8 +122,8 @@ button:hover .arrow-3 {
   top: 0; /* Center vertically */
   right: 0; /* Align to the right side */
   width: 78%;
+  z-index: +5;
 }
-.bgNavImg::before{
+.bgNavImg::before {
   position: absolute;
-
 }

@@ -19,8 +19,8 @@ const Index = ({ pageTitle, PageName }) => {
   };
 
   return (
-    <nav className="navbar">
-      <div className="navContainer">
+    <nav className="navbar ">
+      <div className="navContainer pt-2">
         <div className="logo">
           <img src={Logo} alt="logo" />
           <Brand style={{ width: "80%", height: "80%" }} />
@@ -33,11 +33,9 @@ const Index = ({ pageTitle, PageName }) => {
             <li>
               <NavLink
                 to="/home"
-                activeClassName="active"
-                onClick={() => handleNavLinkClick("/home")}
-                style={{
-                  color: activeLink === "/home" ? "#72b63c" : "#444444",
-                }}
+                style={({ isActive }) => ({
+                  color: isActive ? "#72b63c" : "#444444",
+                })}
               >
                 Home
               </NavLink>
@@ -45,11 +43,9 @@ const Index = ({ pageTitle, PageName }) => {
             <li>
               <NavLink
                 to="/services"
-                activeClassName="active"
-                onClick={() => handleNavLinkClick("/services")}
-                style={{
-                  color: activeLink === "/services" ? "#72b63c" : "#444444",
-                }}
+                style={({ isActive }) => ({
+                  color: isActive ? "#72b63c" : "#444444",
+                })}
               >
                 Our Services
               </NavLink>
@@ -57,11 +53,9 @@ const Index = ({ pageTitle, PageName }) => {
             <li>
               <NavLink
                 to="/portfolio"
-                activeClassName="active"
-                onClick={() => handleNavLinkClick("services")}
-                style={{
-                  color: activeLink === "services" ? "#72b63c" : "#444444",
-                }}
+                style={({ isActive }) => ({
+                  color: isActive ? "#72b63c" : "#444444",
+                })}
               >
                 Portfolio
               </NavLink>
@@ -69,11 +63,9 @@ const Index = ({ pageTitle, PageName }) => {
             <li>
               <NavLink
                 to="/team"
-                activeClassName="active"
-                onClick={() => handleNavLinkClick("services")}
-                style={{
-                  color: activeLink === "services" ? "#72b63c" : "#444444",
-                }}
+                style={({ isActive }) => ({
+                  color: isActive ? "#72b63c" : "#444444",
+                })}
               >
                 Team
               </NavLink>
@@ -81,11 +73,9 @@ const Index = ({ pageTitle, PageName }) => {
             <li>
               <NavLink
                 to="/Client"
-                activeClassName="active"
-                onClick={() => handleNavLinkClick("services")}
-                style={{
-                  color: activeLink === "services" ? "#72b63c" : "#444444",
-                }}
+                style={({ isActive }) => ({
+                  color: isActive ? "#72b63c" : "#444444",
+                })}
               >
                 Client
               </NavLink>
@@ -93,17 +83,15 @@ const Index = ({ pageTitle, PageName }) => {
             <li>
               <NavLink
                 to="/About"
-                activeClassName="active"
-                onClick={() => handleNavLinkClick("services")}
-                style={{
-                  color: activeLink === "services" ? "#72b63c" : "#444444",
-                }}
+                style={({ isActive }) => ({
+                  color: isActive ? "#72b63c" : "#444444",
+                })}
               >
                 About Us
               </NavLink>
             </li>
             <li>
-              <NavLink>
+              <NavLink to="/ContactUs">
                 <button className="btn-submit">Contact Us</button>
               </NavLink>
             </li>

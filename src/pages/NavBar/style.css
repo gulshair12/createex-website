@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  
 }
 .navbar {
   background-image: url("../../SVG//Subpages/AboutUs//Mask\ Group\ 41.jpg");
@@ -53,7 +52,7 @@ body {
   text-decoration: none;
 }
 
-NavLink.active {
+.active {
   color: #72b63c;
 }
 
@@ -126,4 +125,4 @@ NavLink.active {
   .logo {
     margin-left: 0% !important;
   }
-} */
+}  */
