@@ -13,7 +13,11 @@ import ECommerce from "./pages/OurServices/Ecommerce/ecommerce.js";
 import AmazonWB from "./pages/OurServices/Amazon WB/amazonWb.js";
 import UIExecution from "./pages/OurServices/UI/uiex.js";
 import UXExection from "./pages/OurServices/UX Execution/uxex.js";
+import Graphic from "./pages/OurServices/Graphics/index.js";
 import AI from "./pages/OurServices/AI/ai.js";
+import WebDevelopment from "./pages/OurServices/Web/index.js";
+import ErpSolutions from "./pages/OurServices/ErpSolutions/ErpSolutions.js";
+import Branding from "./pages/OurServices/Branding/Branding.js";
 
 // import MainPage from './pages/Home/mainSection/MainPage .js';
 function App() {
@@ -39,6 +43,10 @@ function App() {
         <Route path="/appdesign" element={<AppDesign />} />
         <Route path="/webdesign" element={<WebDesign />} />
         <Route path="/ai" element={<AI />} />
+        <Route path="/graphic" element={<Graphic />} />
+        <Route path="/webdevelopment" element={<WebDevelopment />} />
+        <Route path="/erpsolutions" element={<ErpSolutions />} />
+        <Route path="/branding" element={<Branding />} />
       </Routes>
     </BrowserRouter>
     // BrowserRouter end

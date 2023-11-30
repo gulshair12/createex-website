@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Container, Col } from "react-bootstrap";
 import NavBar from "../../pages/NavBar/index.js";
-import clogo from "../../SVG/comp.svg";
 import Footer from "../../Component/Footer";
 import "./ContactUs.css";
 
@@ -14,7 +13,7 @@ export const ContactUs = () => {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/mjvqqvqj", {
+      const response = await fetch("https://formspree.io/f/xbjvvzyj", {
         method: "POST",
         body: formData,
         headers: {
@@ -41,14 +40,20 @@ export const ContactUs = () => {
   const renderAlert = () => {
     if (submissionStatus === "success") {
       return (
-        <div className="alert alert-success">Form submitted successfully!</div>
+        <div className="alert alert-success" onClick={resetStatus}>
+          Form submitted successfully! Click to close.
+        </div>
       );
     } else if (submissionStatus === "failed") {
-      return <div className="alert alert-danger">Form submission failed!</div>;
+      return (
+        <div className="alert alert-danger" onClick={resetStatus}>
+          Form submission failed! Click to close.
+        </div>
+      );
     } else if (submissionStatus === "error") {
       return (
-        <div className="alert alert-danger">
-          Form submission error. Please try again later.
+        <div className="alert alert-danger" onClick={resetStatus}>
+          Form submission error. Please try again later. Click to close.
         </div>
       );
     }
@@ -92,7 +97,7 @@ export const ContactUs = () => {
                 Contact Us
               </h1>
               <p
-                className="text-white text-center"
+                className="text-white "
                 style={{
                   fontSize: "0.8rem",
                 }}
@@ -101,7 +106,7 @@ export const ContactUs = () => {
                 within 24 hours
               </p>
 
-              <form>
+              <form onSubmit={handleSubmit}>
                 <input
                   type="text"
                   name="name"
@@ -110,7 +115,7 @@ export const ContactUs = () => {
                 />
                 <input
                   type="email"
-                  name="_replyto"
+                  name="email"
                   placeholder="Email"
                   className="input my-4"
                 />
@@ -124,6 +129,7 @@ export const ContactUs = () => {
                   Send
                 </button>
               </form>
+              {renderAlert()}
             </div>
           </Col>
         </Container>

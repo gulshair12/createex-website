@@ -1,21 +1,20 @@
 import React from "react";
-import GraphicDesign from "../Index.js";
-import ux from "../../../SVG/UxImg.svg";
+import ErpSolutions from "../Index.js";
+import Web from "../../../SVG/Subpages/Web/Group 6286.svg";
 import NavBar from "../../NavBar/index.js";
 import Footer from "../../../Component/Footer.jsx";
-
-export const index = () => {
+export const Index = () => {
   return (
     <>
       {" "}
-      <NavBar pageTitle="Graphic Design" />
-      <GraphicDesign
-        Logo={ux}
+      <NavBar pageTitle="Erp Solutions" />
+      <ErpSolutions
+        Logo={Web}
         Whyus="Why Choose Our"
-        mainHeading="Graphic Design Services?"
+        mainHeading="Erp Solutions Services?"
         para="Your website should reflect your company's essence and resonate with your audience. Our team of experts is dedicated to helping you harness the full potential of your online platform. As your business flourishes, it becomes imperative to collaborate with a web development agency to build a professional website that mirrors your growth trajectory."
         detail="Your digital presence shapes your business's success, and we're here to guide you every step of the way. Our proficient team is equipped to solve your challenges with tailored solutions. Enhance your marketing efforts, engage seamlessly with your customers, and navigate the digital landscape confidently with a meticulously designed website. We prioritize speed, search engine optimization, and functionality to fulfill your organizational needs."
-        h3="Benefits of Our App Development Services:"
+        h3="Benefits of Our Erp Solutions Services:"
         h1="Amplify Your Market Presence:"
         detail1="Our websites are crafted to stand out, creating a distinct digital footprint for your business."
         h2="Amplify Your Market Presence:"
@@ -33,4 +32,4 @@ export const index = () => {
     </>
   );
 };
-export default index;
+export default Index;
