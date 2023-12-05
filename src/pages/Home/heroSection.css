@@ -32,7 +32,7 @@
   background-image: url("../../SVG/belowSubmitbtn.svg");
   background-repeat: no-repeat;
   position: absolute;
-  top: 420px; /* Adjust this value as needed */
+  bottom: -9rem; /* Adjust this value as needed */
   left: 0; /* Position the background image to the left */
   width: 31vw; /* Ensure the background covers the entire width */
   height: 36vw; /* Ensure the background covers the entire height */
@@ -61,11 +61,11 @@
 .heroh6 {
   font-style: var(--helvetica);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .heroh3 {
   font-style: var(--helvetica);
-  font-size: 48;
+  font-size: 1.7rem;
   font-weight: 600;
 }
 .text-secondary {
@@ -121,8 +121,8 @@ button:hover .arrow-3 {
   position: absolute;
   top: 0; /* Center vertically */
   right: 0; /* Align to the right side */
-  width: 78%;
   z-index: +5;
+  width: 65%;
 }
 .bgNavImg::before {
   position: absolute;

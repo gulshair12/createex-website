@@ -14,9 +14,9 @@ const Section = () => {
           height: "100vh",
         }}
       >
-        <Row className="d-flex align-items-center justify-content-center justify-content-lg-start res">
+        <Row className="d-flex align-items-center justify-content-center justify-content-lg-start ">
           <Col
-            lg={5}
+            lg={6}
             className="Detail text-left"
             style={{
               marginLeft: "5rem",
@@ -24,7 +24,7 @@ const Section = () => {
             }}
           >
             <h6 className="heroh6 ">Growth of your Business</h6>
-            <h3 className="heroh">
+            <h3 className="heroh3">
               From Idea<span className="color"> G</span>
               <span className="Gen">eneration</span>
               <br />
@@ -44,7 +44,7 @@ const Section = () => {
               <img className="arrow-3" src={Third} alt="Arrow 3" />
             </button>
           </Col>
-          <Col className="heroImage" style={{ maxWidth: "90%" }}>
+          <Col className="heroImage">
             <img className="heroImage" src={bgImg} alt="heroImage" />
           </Col>
         </Row>

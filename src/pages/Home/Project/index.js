@@ -20,7 +20,7 @@ import AI from "../../../SVG/ai.svg";
 export const Index = () => {
   return (
     <>
-      <div className="bgImage">
+      <div id="services" className="bgImage">
         <Row
           style={{
             marginBottom: "60px",

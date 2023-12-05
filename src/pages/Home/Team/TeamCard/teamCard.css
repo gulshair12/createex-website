@@ -1,4 +1,3 @@
-
 svg {
   width: 80%;
 }
@@ -7,6 +6,7 @@ svg {
   position: relative;
   width: 250px; /* Set the width you want */
   height: 200px; /* Set the height you want */
+  z-index: +5;
 }
 
 .svg-container {
@@ -21,6 +21,6 @@ svg {
   left: 5px;
   top: 200px;
   position: relative;
-  z-index: 2; /* Place the text content above the SVG */
+  z-index: 5; /* Place the text content above the SVG */
   padding: 20px;
 }

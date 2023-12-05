@@ -8,8 +8,8 @@
   background-image: url("../../../SVG/belowSubmitbtn.svg");
   background-repeat: no-repeat;
   position: absolute; /* Adjust this value as needed */
-  bottom: -15rem;
-  left: -71px;
+  top: 20rem;
   width: 20vw;
   height: 36vw;
+  z-index: -5;
 }

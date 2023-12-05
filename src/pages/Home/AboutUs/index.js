@@ -16,12 +16,7 @@ export const About = () => {
       >
         <Container>
           <Row>
-            <Col
-              style={{
-                marginTop: "50px",
-                marginLeft:"140px",
-              }}
-            >
+            <Col>
               <Card
                 style={{
                   border: "transparent",

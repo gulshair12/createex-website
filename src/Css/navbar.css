@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   top: 0; /* Adjust this value as needed */
-  right: 30rem; /* Position the background image to the left */
+  right: 28rem; /* Position the background image to the left */
   width: 31vw; /* Ensure the background covers the entire width */
   height: 36vw; /* Ensure the background covers the entire height */
   z-index: -5;
