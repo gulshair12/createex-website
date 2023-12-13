@@ -19,15 +19,17 @@ import WebDevelopment from "./pages/OurServices/Web/index.js";
 import ErpSolutions from "./pages/OurServices/ErpSolutions/ErpSolutions.js";
 import Branding from "./pages/OurServices/Branding/Branding.js";
 import Project from "./pages/Home/Project/index.js";
+import ScrollToTop from "./ScrolltoTop.js";
+import DetailPage from "./pages/PORTFOLIO/AppDetails/Detail.js";
 
 // import MainPage from './pages/Home/mainSection/MainPage .js';
 function App() {
   return (
     // BrowserRouter start
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Project" element={<Project />} />
         <Route path="/PORTFOLIO" element={<PORTFOLIO />} />
@@ -49,6 +51,7 @@ function App() {
         <Route path="/webdevelopment" element={<WebDevelopment />} />
         <Route path="/erpsolutions" element={<ErpSolutions />} />
         <Route path="/branding" element={<Branding />} />
+        <Route path="/PORTFOLIO/detailpage" element={<DetailPage />} />
       </Routes>
     </BrowserRouter>
     // BrowserRouter end

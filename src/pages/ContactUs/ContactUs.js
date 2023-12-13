@@ -67,8 +67,8 @@ export const ContactUs = () => {
         className="bg-image mb-5"
         style={{
           marginTop: "60px",
-          width: "100%",
-          height: "100%",
+          maxWidth: "100%",
+          height: "auto",
           objectFit: "cover",
         }}
       >
@@ -80,8 +80,8 @@ export const ContactUs = () => {
           }}
         >
           <Col
-            xl={6}
-            lg={6}
+            xl={7}
+            lg={7}
             md={6}
             style={{
               paddingLeft: "100px",

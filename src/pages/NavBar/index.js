@@ -32,7 +32,7 @@ const Index = ({ pageTitle, PageName }) => {
           <ul>
             <li>
               <NavLink
-                to="/home"
+                to="/"
                 style={({ isActive }) => ({
                   color: isActive ? "#72b63c" : "#444444",
                 })}

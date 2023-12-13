@@ -1,15 +1,8 @@
-.background-team {
-  margin-bottom: 6rem;
-  margin-top: 2rem;
-  position: relative;
-}
-.background-team::before {
-  content: "";
-  background-image: url("../../../SVG/belowSubmitbtn.svg");
-  background-repeat: no-repeat;
-  position: absolute; /* Adjust this value as needed */
-  top: 20rem;
-  width: 20vw;
-  height: 36vw;
-  z-index: -5;
-}
+/* .teambackground {
+  background-image: url('../../../SVG/PNG/Testimonialbg.png');
+  background-position: center;
+  background-size: cover;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 200px;
+} */

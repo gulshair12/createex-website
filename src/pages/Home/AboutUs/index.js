@@ -41,7 +41,7 @@ export const About = () => {
                 </h4>
                 <p
                   className="mt-3 mb-4 text-muted"
-                  style={{ fontSize: "0.8em" }}
+                  style={{ fontSize: "0.9rem" }}
                 >
                   Welcome to Software Housing, your premier destination for
                   cutting-edge software development and design solutions. At

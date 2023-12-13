@@ -45,7 +45,7 @@ export const Testimonial = () => {
 
   return (
     <>
-      <NavBar pageTitle="About Our Company " PageName="About us"   />
+      <NavBar pageTitle="About Our Company " PageName="About us" />
       {/* First Part */}
       <div
         className="BgImage"
@@ -83,7 +83,7 @@ export const Testimonial = () => {
                 </h4>
                 <p
                   className="mt-3 mb-4 text-muted"
-                  style={{ fontSize: "0.8vw" }}
+                  style={{ fontSize: "0.9rem" }}
                 >
                   Welcome to Software Housing, your premier destination for
                   cutting-edge software development and design solutions. At

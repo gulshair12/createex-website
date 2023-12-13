@@ -65,8 +65,8 @@ const Contact = () => {
         className="bg-image mb-5"
         style={{
           marginTop: "60px",
-          width: "100%",
-          height: "100%",
+          maxWidth: "100%",
+          height: "auto",
           objectFit: "cover",
         }}
       >
@@ -78,8 +78,8 @@ const Contact = () => {
           }}
         >
           <Col
-            xl={6}
-            lg={6}
+            xl={7}
+            lg={7}
             md={6}
             style={{
               paddingLeft: "100px",
@@ -109,19 +109,22 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="Name"
-                  className="input"
+                  className="input text-white"
+                  required
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder="Email"
-                  className="input my-4"
+                  className="input my-4 text-white"
+                  required
                 />
                 <textarea
                   name="message"
                   rows="10"
                   placeholder="Message"
-                  className="Messageinput"
+                  className="Messageinput text-white"
+                  required
                 ></textarea>
                 <button type="submit" className="send-btn my-2">
                   Send
